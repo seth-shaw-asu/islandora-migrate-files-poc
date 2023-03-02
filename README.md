@@ -1,11 +1,6 @@
 # Proof of Concept: Islandora 8 Migrate Files (Apollo Edition)
 
-This repository consists of two directories:
-
-1. migrate_apollo: A Drupal module holding the Migrate API configs to load Tiff masters, metadata from a CSV, and MADS RDF XML authority records from the Library of Congress.
-2. data: the source data we will migrate (see below).
-
-# Source Data
+This repository is a Drupal module holding the Migrate API configs to load Tiff masters, metadata from a CSV, and MADS RDF XML authority records from the Library of Congress. It also contains a directory of source data we will migrate. (See the running instructions for where to place the data directory.)
 
 The source data used for this proof of concept came from the [Project Apollo Archive Flickr Albums](https://www.flickr.com/photos/projectapolloarchive/albums) and are in the public domain although some of the descriptive metadata was supplemented and the original Jpegs were converted to Tiff.
 
